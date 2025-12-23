@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between mx-34 py-3 text-white">
+    <div className="flex items-center justify-around gap-20 py-3 text-white fixed top-0 w-full backdrop-blur-sm bg-black/70 z-50">
       <Link to="/" className="font-semibold text-2xl pacifico-regular ">
         <span className="text-indigo-500">GSAP</span>{" "}
         <span className="text-orange-400">Fashion</span>
