@@ -13,7 +13,6 @@ const Hero = () => {
     gsap.fromTo(
       "#title",
       {
-        y: 200,
         opacity: 0,
       },
       {
@@ -26,7 +25,6 @@ const Hero = () => {
     gsap.fromTo(
       "#subtitle",
       {
-        y: 200,
         opacity: 0,
       },
       {
@@ -58,7 +56,7 @@ const Hero = () => {
         <video
           ref={videoRef}
           className="w-full"
-          src="/public/hero.mp4"
+          src="/hero.mp4"
           alt="hero"
           autoPlay
           muted

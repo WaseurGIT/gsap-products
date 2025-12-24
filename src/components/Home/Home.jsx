@@ -1,14 +1,14 @@
-import React from "react";
-import Navbar from "../Navbar/Navbar";
-import { Outlet } from "react-router-dom";
-import Footer from "../Footer/Footer";
+import Hero from "../Hero/Hero";
+import Hoodies from "../Products_Routes/HoodieItems/Hoodies";
+import Watches from "../Products_Routes/Watch/Watches";
+// import Watch from "../Products_Routes/Watch/Watch";
 
 const Home = () => {
   return (
-    <div className="bg-black text-white">
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+    <div>
+      <Hero></Hero>
+      <Hoodies></Hoodies>
+      <Watches></Watches>
     </div>
   );
 };
