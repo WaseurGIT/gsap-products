@@ -1,30 +1,30 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../SectionTitle/SectionTitle";
-import Watch from "./Watch";
+import Cap from "./Cap";
 
-const Watches = () => {
-  const [watches, setWatches] = useState([]);
+const Caps = () => {
+  const [caps, setCaps] = useState([]);
 
   useEffect(() => {
     axios.get("/products.json").then((res) => {
-      const watchItem = res.data.filter(
-        (item) => item.category === "Analog Hand Watch"
+      const capItem = res.data.filter(
+        (item) => item.category === "Winter Caps"
       );
-      setWatches(watchItem);
+      setCaps(capItem);
     });
   }, []);
 
   return (
     <div>
-      <SectionTitle title={"Watches"}></SectionTitle>
+      <SectionTitle title={"Winter Caps"}></SectionTitle>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-2 mx-10">
-        {watches.map((watch) => (
-          <Watch key={watch.id} watch={watch}></Watch>
+        {caps.map((cap) => (
+          <Cap key={cap.id} cap={cap}></Cap>
         ))}
       </div>
     </div>
   );
 };
 
-export default Watches;
+export default Caps;

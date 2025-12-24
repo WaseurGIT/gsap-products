@@ -16,7 +16,7 @@ const Hoodies = () => {
   return (
     <div>
       <SectionTitle title={"Hoodies"}></SectionTitle>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 mx-10">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-2 mx-10">
         {hoodies.map((hoodie) => (
           <Hoodie key={hoodie.id} hoodie={hoodie}></Hoodie>
         ))}
