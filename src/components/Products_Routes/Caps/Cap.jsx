@@ -1,23 +1,74 @@
-import React from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap/all";
+import React, { useRef } from "react";
 
 const Cap = ({ cap }) => {
   const { product_name, price, image } = cap;
 
+  const cardRef = useRef();
+  const nameRef = useRef();
+  const priceRef = useRef();
+  const tlRef = useRef();
+
+  useGSAP(() => {
+    gsap.set([nameRef.current, priceRef.current], {
+      opacity: 0,
+      y: 20,
+    });
+
+    tlRef.current = gsap.timeline({ paused: true });
+
+    tlRef.current
+      .to(nameRef.current, {
+        opacity: 1,
+        y: 0,
+        duration: 0.3,
+        ease: "power2.out",
+      })
+      .to(
+        priceRef.current,
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.3,
+          ease: "power2.out",
+        },
+        "-=0.15"
+      );
+
+    const card = cardRef.current;
+
+    const onEnter = () => tlRef.current.play();
+    const onLeave = () => tlRef.current.reverse();
+
+    card.addEventListener("mouseenter", onEnter);
+    card.addEventListener("mouseleave", onLeave);
+
+    return () => {
+      card.removeEventListener("mouseenter", onEnter);
+      card.removeEventListener("mouseleave", onLeave);
+    };
+  }, []);
+
   return (
-    <div className="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-      <figure className="bg-gray-100 flex items-center justify-center p-4">
+    <div
+      ref={cardRef}
+      className="relative w-76 bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer"
+    >
+      <figure className="flex items-center justify-center p-4">
         <img
           src={image}
           alt={product_name}
-          className="w-48 h-48 object-contain"
+          className="w-44 h-44 object-contain"
         />
       </figure>
-      <div className="p-6">
-        <h2 className="text-xl font-semibold text-gray-800">{product_name}</h2>
-        <p className="text-orange-500 text-lg font-bold mt-2">${price}</p>
-        <button className="mt-4 w-full bg-orange-400 text-white font-semibold py-2 rounded-lg hover:bg-orange-500 transition-colors">
-          Buy Now
-        </button>
+      <div className="absolute top-4 left-5">
+        <h2 ref={nameRef} className="text-xl font-semibold text-gray-800">
+          {product_name}
+        </h2>
+        <p ref={priceRef} className="text-orange-500 text-lg font-bold mt-1">
+          ${price}
+        </p>
       </div>
     </div>
   );

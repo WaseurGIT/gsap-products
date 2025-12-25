@@ -43,7 +43,7 @@ const Hoodies = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-between px-56">
+    <div className="flex items-center justify-between px-56 mt-16">
       <SectionTitle ref={sectionTitleRef} title={"Hoodies"}></SectionTitle>
       <div
         ref={cardsRef}

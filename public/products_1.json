@@ -59,7 +59,7 @@
     "category": "Analog Hand Watch",
     "color": "Rose Gold",
     "price": 205.11,
-    "image": "/images/watch_1.jpg",
+    "image": "/images/watch_9.jpg",
     "short description": [
       "Water-resistant up to 50 meters.",
       "Elegant and timeless design.",
@@ -105,114 +105,6 @@
       "Scratch-resistant mineral glass."
     ],
     "rating": 3.7
-  },
-  {
-    "id": 61,
-    "product_name": "Clutch Ladies Bags",
-    "category": "Ladies Bags",
-    "color": "Maroon",
-    "price": 122.99,
-    "image": "/images/ladies_bag_1.jpg",
-    "short description": [
-      "High-quality vegan leather.",
-      "Spacious main compartment."
-    ],
-    "rating": 4.8
-  },
-  {
-    "id": 62,
-    "product_name": "Shoulder Ladies Bags",
-    "category": "Ladies Bags",
-    "color": "Black",
-    "price": 115.08,
-    "image": "/images/ladies_bag_2.jpg",
-    "short description": [
-      "Elegant gold-tone hardware.",
-      "Spacious main compartment.",
-      "Adjustable and detachable strap."
-    ],
-    "rating": 3.8
-  },
-  {
-    "id": 63,
-    "product_name": "Hobo Ladies Bags",
-    "category": "Ladies Bags",
-    "color": "Black",
-    "price": 169.04,
-    "image": "/images/ladies_bag_3.jpg",
-    "short description": [
-      "Elegant gold-tone hardware.",
-      "High-quality vegan leather.",
-      "Adjustable and detachable strap."
-    ],
-    "rating": 3.8
-  },
-  {
-    "id": 64,
-    "product_name": "Crossbody Ladies Bags",
-    "category": "Ladies Bags",
-    "color": "Beige",
-    "price": 153.81,
-    "image": "/images/ladies_bag_4.jpg",
-    "short description": [
-      "Spacious main compartment.",
-      "High-quality vegan leather."
-    ],
-    "rating": 4.7
-  },
-  {
-    "id": 71,
-    "product_name": "Carry-on Travel Bags",
-    "category": "Travel Bags",
-    "color": "Olive Green",
-    "price": 137.27,
-    "image": "/images/travel_bag_1.jpg",
-    "short description": [
-      "Durable, water-resistant material.",
-      "Padded laptop sleeve.",
-      "Smooth-rolling spinner wheels."
-    ],
-    "rating": 4.7
-  },
-  {
-    "id": 72,
-    "product_name": "Carry-on Travel Bags",
-    "category": "Travel Bags",
-    "color": "Black",
-    "price": 230.31,
-    "image": "/images/travel_bag_2.jpg",
-    "short description": [
-      "Padded laptop sleeve.",
-      "TSA-approved lock included."
-    ],
-    "rating": 4.4
-  },
-  {
-    "id": 73,
-    "product_name": "Weekender Travel Bags",
-    "category": "Travel Bags",
-    "color": "Navy",
-    "price": 111.96,
-    "image": "/images/travel_bag_3.jpg",
-    "short description": [
-      "Smooth-rolling spinner wheels.",
-      "Padded laptop sleeve.",
-      "Ergonomic design for comfortable carrying."
-    ],
-    "rating": 4.5
-  },
-  {
-    "id": 74,
-    "product_name": "Rolling Travel Bags",
-    "category": "Travel Bags",
-    "color": "Navy",
-    "price": 96.47,
-    "image": "/images/travel_bag_4.jpg",
-    "short description": [
-      "TSA-approved lock included.",
-      "Padded laptop sleeve."
-    ],
-    "rating": 4.7
   },
   {
     "id": 81,
@@ -375,58 +267,5 @@
       "Super soft brushed fleece interior."
     ],
     "rating": 4.7
-  },
-  {
-    "id": 161,
-    "product_name": "Rechargeable Emergency Torch Lights",
-    "category": "Emergency Torch Lights",
-    "color": "Black",
-    "price": 46.02,
-    "image": "/images/torch_1.jpg",
-    "short description": [
-      "Long-lasting rechargeable battery.",
-      "Extremely bright 1000-lumen output."
-    ],
-    "rating": 4.8
-  },
-  {
-    "id": 162,
-    "product_name": "Tactical Emergency Torch Lights",
-    "category": "Emergency Torch Lights",
-    "color": "Camo",
-    "price": 42.3,
-    "image": "/images/torch_2.jpg",
-    "short description": [
-      "Long-lasting rechargeable battery.",
-      "Extremely bright 1000-lumen output."
-    ],
-    "rating": 4.9
-  },
-  {
-    "id": 163,
-    "product_name": "Rechargeable Emergency Torch Lights",
-    "category": "Emergency Torch Lights",
-    "color": "Silver",
-    "price": 23.47,
-    "image": "/images/torch_3.jpg",
-    "short description": [
-      "Water and shock resistant.",
-      "Extremely bright 1000-lumen output."
-    ],
-    "rating": 4.5
-  },
-  {
-    "id": 164,
-    "product_name": "Mini Emergency Torch Lights",
-    "category": "Emergency Torch Lights",
-    "color": "Camo",
-    "price": 16.59,
-    "image": "/images/torch_4.jpg",
-    "short description": [
-      "Water and shock resistant.",
-      "Durable aircraft-grade aluminum body.",
-      "Extremely bright 1000-lumen output."
-    ],
-    "rating": 4.4
   }
 ]
