@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex items-center justify-center gap-10">
         {navLinks.map((link) => (
           <p className="" key={link.id}>
-            <Link to={`${link.id}`} className="hover:text-indigo-400 hover:font-semibold">{link.title}</Link>
+            <Link to={`${link.route}`} className="hover:text-indigo-400 hover:font-semibold">{link.title}</Link>
           </p>
         ))}
       </div>
