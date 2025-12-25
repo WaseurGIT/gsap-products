@@ -14,9 +14,4 @@ export const navLinks = [
     route: "/hotItems",
     title: "Hot Items",
   },
-  {
-    id: "login",
-    route: "/login",
-    title: "Login",
-  },
 ];
