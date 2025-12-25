@@ -1,0 +1,432 @@
+[
+  {
+    "id": 31,
+    "product_name": "High-Top Sneakers",
+    "category": "Sneakers",
+    "color": "Red",
+    "price": 115.14,
+    "image": "/images/sneaker_1.jpg",
+    "short description": [
+      "Breathable mesh upper.",
+      "Lace-up closure for a secure fit.",
+      "Stylish design for urban exploration."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 32,
+    "product_name": "High-Top Sneakers",
+    "category": "Sneakers",
+    "color": "Red",
+    "price": 92.27,
+    "image": "/images/sneaker_2.jpg",
+    "short description": [
+      "Memory foam insole for all-day comfort.",
+      "Breathable mesh upper."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 33,
+    "product_name": "Athletic Sneakers",
+    "category": "Sneakers",
+    "color": "Red",
+    "price": 104.23,
+    "image": "/images/sneaker_3.jpg",
+    "short description": [
+      "Memory foam insole for all-day comfort.",
+      "Breathable mesh upper."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 34,
+    "product_name": "Casual Sneakers",
+    "category": "Sneakers",
+    "color": "Red",
+    "price": 123.71,
+    "image": "/images/sneaker_4.jpg",
+    "short description": [
+      "Non-slip rubber outsole.",
+      "Breathable mesh upper.",
+      "Lace-up closure for a secure fit."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 51,
+    "product_name": "Classic Analog Hand Watch",
+    "category": "Analog Hand Watch",
+    "color": "Rose Gold",
+    "price": 205.11,
+    "image": "/images/watch_1.jpg",
+    "short description": [
+      "Water-resistant up to 50 meters.",
+      "Elegant and timeless design.",
+      "Scratch-resistant mineral glass."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 52,
+    "product_name": "Classic Analog Hand Watch",
+    "category": "Analog Hand Watch",
+    "color": "Gold",
+    "price": 328.15,
+    "image": "/images/watch_2.jpg",
+    "short description": [
+      "Scratch-resistant mineral glass.",
+      "Water-resistant up to 50 meters."
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": 53,
+    "product_name": "Chronograph Analog Hand Watch",
+    "category": "Analog Hand Watch",
+    "color": "Silver",
+    "price": 84.51,
+    "image": "/images/watch_3.jpg",
+    "short description": [
+      "Elegant and timeless design.",
+      "Scratch-resistant mineral glass."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 54,
+    "product_name": "Sport Analog Hand Watch",
+    "category": "Analog Hand Watch",
+    "color": "Rose Gold",
+    "price": 258.56,
+    "image": "/images/watch_4.jpg",
+    "short description": [
+      "Water-resistant up to 50 meters.",
+      "Scratch-resistant mineral glass."
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": 61,
+    "product_name": "Clutch Ladies Bags",
+    "category": "Ladies Bags",
+    "color": "Maroon",
+    "price": 122.99,
+    "image": "/images/ladies_bag_1.jpg",
+    "short description": [
+      "High-quality vegan leather.",
+      "Spacious main compartment."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 62,
+    "product_name": "Shoulder Ladies Bags",
+    "category": "Ladies Bags",
+    "color": "Black",
+    "price": 115.08,
+    "image": "/images/ladies_bag_2.jpg",
+    "short description": [
+      "Elegant gold-tone hardware.",
+      "Spacious main compartment.",
+      "Adjustable and detachable strap."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 63,
+    "product_name": "Hobo Ladies Bags",
+    "category": "Ladies Bags",
+    "color": "Black",
+    "price": 169.04,
+    "image": "/images/ladies_bag_3.jpg",
+    "short description": [
+      "Elegant gold-tone hardware.",
+      "High-quality vegan leather.",
+      "Adjustable and detachable strap."
+    ],
+    "rating": 3.8
+  },
+  {
+    "id": 64,
+    "product_name": "Crossbody Ladies Bags",
+    "category": "Ladies Bags",
+    "color": "Beige",
+    "price": 153.81,
+    "image": "/images/ladies_bag_4.jpg",
+    "short description": [
+      "Spacious main compartment.",
+      "High-quality vegan leather."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 71,
+    "product_name": "Carry-on Travel Bags",
+    "category": "Travel Bags",
+    "color": "Olive Green",
+    "price": 137.27,
+    "image": "/images/travel_bag_1.jpg",
+    "short description": [
+      "Durable, water-resistant material.",
+      "Padded laptop sleeve.",
+      "Smooth-rolling spinner wheels."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 72,
+    "product_name": "Carry-on Travel Bags",
+    "category": "Travel Bags",
+    "color": "Black",
+    "price": 230.31,
+    "image": "/images/travel_bag_2.jpg",
+    "short description": [
+      "Padded laptop sleeve.",
+      "TSA-approved lock included."
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": 73,
+    "product_name": "Weekender Travel Bags",
+    "category": "Travel Bags",
+    "color": "Navy",
+    "price": 111.96,
+    "image": "/images/travel_bag_3.jpg",
+    "short description": [
+      "Smooth-rolling spinner wheels.",
+      "Padded laptop sleeve.",
+      "Ergonomic design for comfortable carrying."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 74,
+    "product_name": "Rolling Travel Bags",
+    "category": "Travel Bags",
+    "color": "Navy",
+    "price": 96.47,
+    "image": "/images/travel_bag_4.jpg",
+    "short description": [
+      "TSA-approved lock included.",
+      "Padded laptop sleeve."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 81,
+    "product_name": "Stainless Steel Water Bottles",
+    "category": "Water Bottles",
+    "color": "Teal",
+    "price": 25.82,
+    "image": "/images/bottle_1.jpg",
+    "short description": [
+      "Leak-proof lid with a secure lock.",
+      "BPA-free and eco-friendly.",
+      "Keeps drinks cold for 24 hours."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 82,
+    "product_name": "Insulated Water Bottles",
+    "category": "Water Bottles",
+    "color": "Silver",
+    "price": 31.09,
+    "image": "/images/bottle_2.jpg",
+    "short description": [
+      "Wide mouth for easy cleaning.",
+      "BPA-free and eco-friendly."
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": 83,
+    "product_name": "Insulated Water Bottles",
+    "category": "Water Bottles",
+    "color": "Black",
+    "price": 26.65,
+    "image": "/images/bottle_3.jpg",
+    "short description": [
+      "BPA-free and eco-friendly.",
+      "Perfect for the gym or office.",
+      "Wide mouth for easy cleaning."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 84,
+    "product_name": "Smart Water Bottles",
+    "category": "Water Bottles",
+    "color": "Black",
+    "price": 26.56,
+    "image": "/images/bottle_4.jpg",
+    "short description": [
+      "BPA-free and eco-friendly.",
+      "Perfect for the gym or office."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 121,
+    "product_name": "Trapper Winter Caps",
+    "category": "Winter Caps",
+    "color": "Red",
+    "price": 29.84,
+    "image": "/images/winter_cap_1.jpg",
+    "short description": [
+      "Stylish cable-knit design.",
+      "Soft, non-itchy acrylic material."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 122,
+    "product_name": "Pom-Pom Winter Caps",
+    "category": "Winter Caps",
+    "color": "Black",
+    "price": 15.44,
+    "image": "/images/winter_cap_2.jpg",
+    "short description": [
+      "One size fits most adults.",
+      "Stylish cable-knit design."
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": 123,
+    "product_name": "Beanie Winter Caps",
+    "category": "Winter Caps",
+    "color": "Red",
+    "price": 26.64,
+    "image": "/images/winter_cap_3.jpg",
+    "short description": [
+      "Perfect for skiing and winter hikes.",
+      "Stylish cable-knit design."
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 124,
+    "product_name": "Knit Winter Caps",
+    "category": "Winter Caps",
+    "color": "Black",
+    "price": 14.44,
+    "image": "/images/winter_cap_4.jpg",
+    "short description": [
+      "One size fits most adults.",
+      "Perfect for skiing and winter hikes.",
+      "Thick, thermal lining for extreme cold."
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": 141,
+    "product_name": "Graphic Hoodies",
+    "category": "Hoodies",
+    "color": "Charcoal",
+    "price": 37.4,
+    "image": "/images/hoodie_1.jpg",
+    "short description": [
+      "Durable metal zipper (for zip-up).",
+      "Ideal for casual comfort.",
+      "Adjustable drawstring hood."
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": 142,
+    "product_name": "Oversized Hoodies",
+    "category": "Hoodies",
+    "color": "Charcoal",
+    "price": 63.54,
+    "image": "/images/hoodie_2.jpg",
+    "short description": [
+      "Adjustable drawstring hood.",
+      "Durable metal zipper (for zip-up).",
+      "Ideal for casual comfort."
+    ],
+    "rating": 5.0
+  },
+  {
+    "id": 143,
+    "product_name": "Fleece Hoodies",
+    "category": "Hoodies",
+    "color": "Royal Blue",
+    "price": 46.16,
+    "image": "/images/hoodie_3.jpg",
+    "short description": [
+      "Durable metal zipper (for zip-up).",
+      "Super soft brushed fleece interior."
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": 144,
+    "product_name": "Pullover Hoodies",
+    "category": "Hoodies",
+    "color": "Black",
+    "price": 46.29,
+    "image": "/images/hoodie_4.jpg",
+    "short description": [
+      "Kangaroo pocket for hand warming.",
+      "Durable metal zipper (for zip-up).",
+      "Super soft brushed fleece interior."
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 161,
+    "product_name": "Rechargeable Emergency Torch Lights",
+    "category": "Emergency Torch Lights",
+    "color": "Black",
+    "price": 46.02,
+    "image": "/images/torch_1.jpg",
+    "short description": [
+      "Long-lasting rechargeable battery.",
+      "Extremely bright 1000-lumen output."
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 162,
+    "product_name": "Tactical Emergency Torch Lights",
+    "category": "Emergency Torch Lights",
+    "color": "Camo",
+    "price": 42.3,
+    "image": "/images/torch_2.jpg",
+    "short description": [
+      "Long-lasting rechargeable battery.",
+      "Extremely bright 1000-lumen output."
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 163,
+    "product_name": "Rechargeable Emergency Torch Lights",
+    "category": "Emergency Torch Lights",
+    "color": "Silver",
+    "price": 23.47,
+    "image": "/images/torch_3.jpg",
+    "short description": [
+      "Water and shock resistant.",
+      "Extremely bright 1000-lumen output."
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 164,
+    "product_name": "Mini Emergency Torch Lights",
+    "category": "Emergency Torch Lights",
+    "color": "Camo",
+    "price": 16.59,
+    "image": "/images/torch_4.jpg",
+    "short description": [
+      "Water and shock resistant.",
+      "Durable aircraft-grade aluminum body.",
+      "Extremely bright 1000-lumen output."
+    ],
+    "rating": 4.4
+  }
+]

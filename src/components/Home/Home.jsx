@@ -13,13 +13,13 @@ const Home = () => {
     <div>
       <Hero></Hero>
       <Hoodies></Hoodies>
-      <Watches></Watches>
+      {/* <Watches></Watches>
       <Sneakers></Sneakers>
       <Bottles></Bottles>
       <Caps></Caps>
       <TravelBags></TravelBags>
       <LadiesBags></LadiesBags>
-      <Torches></Torches>
+      <Torches></Torches> */}
     </div>
   );
 };

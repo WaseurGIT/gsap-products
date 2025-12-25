@@ -11,7 +11,7 @@ const Hero = () => {
 
   useGSAP(() => {
     gsap.fromTo(
-      "#title",
+      "#heroTitle",
       {
         opacity: 0,
       },
@@ -23,7 +23,7 @@ const Hero = () => {
     );
 
     gsap.fromTo(
-      "#subtitle",
+      "#heroSubtitle",
       {
         opacity: 0,
       },
@@ -40,11 +40,11 @@ const Hero = () => {
     <div className="h-dvh">
       <div className="flex items-center justify-center">
         <div className="mt-60">
-          <h1 id="title" className="text-5xl">
+          <h1 id="heroTitle" className="text-5xl">
             GSAP Fashions <br /> <span className="text-2xl">and</span>{" "}
             Electronic Devices
           </h1>
-          <h1 id="subtitle" className="text-xl mt-5">
+          <h1 id="heroSubtitle" className="text-xl mt-5">
             Find your daily usage products from{" "}
             <span className="text-indigo-500 pacifico-regular ">GASP </span>{" "}
             <span className="text-orange-400 pacifico-regular ">Fashion</span>{" "}
