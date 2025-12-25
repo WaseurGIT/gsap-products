@@ -15,7 +15,6 @@ const Register = () => {
   const handleRegister = (e) => {
     e.preventDefault();
     const form = e.target;
-    // const name = form.name.value;
     const email = form.email.value;
     const password = form.password.value;
     const confirmPassword = form.confirmPassword.value;
@@ -27,37 +26,35 @@ const Register = () => {
       setError("Password must contain one special character.");
       return;
     } else if (password !== confirmPassword) {
-      setError("Password and Confirmed Password Does not matched");
+      setError("Password and Confirmed Password do not match.");
       return;
     } else {
       setError("");
     }
 
-    register(email, password).then(async (res) => {
-      const user = res.user;
-
-      //   write the backend code here
+    register(email, password).then(() => {
       Swal.fire({
-        toast: true, // enables toast mode
-        position: "top-end", // top-right corner
-        icon: "success", // "success", "error", "info", etc.
-        title: "Account Created Successfully", // the text you want to show
+        toast: true,
+        position: "top-end",
+        icon: "success",
+        title: "Account Created Successfully",
         showConfirmButton: false,
-        timer: 2000, // auto-close after 2 seconds
-        timerProgressBar: true, // optional progress bar
-        background: "#f0f0f0", // optional: change background
-        iconColor: "#4ade80", // optional: change icon color
+        timer: 2000,
+        timerProgressBar: true,
+        background: "#f0f0f0",
+        iconColor: "#4ade80",
       });
     });
+
     form.reset();
     navigate("/");
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="flex w-full max-w-4xl bg-white rounded-2xl shadow-lg overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <div className="flex flex-col md:flex-row w-full max-w-4xl bg-white rounded-2xl shadow-lg overflow-hidden">
         {/* Left - Image */}
-        <div className="w-1/2 hidden md:block">
+        <div className="w-full md:w-1/2 h-64 md:h-auto hidden md:block">
           <img
             src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
             alt="Register"
@@ -65,13 +62,14 @@ const Register = () => {
           />
         </div>
 
-        <div className="w-1/2 p-10">
-          <h2 className="text-3xl font-bold text-gray-800">
+        {/* Right - Form */}
+        <div className="w-full md:w-1/2 p-8 md:p-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
             Create Account ✨
           </h2>
           <p className="text-gray-500 mt-2">Join us and start shopping today</p>
 
-          <form onSubmit={handleRegister} className="mt-8 space-y-5">
+          <form onSubmit={handleRegister} className="mt-6 space-y-4">
             <input
               type="text"
               placeholder="Name"
@@ -80,7 +78,7 @@ const Register = () => {
               className="text-gray-700 w-full px-4 py-3 border border-gray-300 rounded-md
               focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
-            {/* Email */}
+
             <input
               type="email"
               required
@@ -90,7 +88,7 @@ const Register = () => {
               focus:outline-none focus:ring-2 focus:ring-orange-400"
             />
 
-            {/* Password with Eye Toggle */}
+            {/* Password */}
             <div className="relative">
               <input
                 type={showPassword ? "text" : "password"}
@@ -100,15 +98,15 @@ const Register = () => {
                 className="text-gray-700 w-full px-4 py-3 border border-gray-300 rounded-md
                 focus:outline-none focus:ring-2 focus:ring-orange-400 pr-10"
               />
-
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
               >
                 {showPassword ? <FaEyeSlash /> : <FaEye />}
               </button>
             </div>
+
             {/* Confirm Password */}
             <div className="relative">
               <input
@@ -119,11 +117,10 @@ const Register = () => {
                 className="text-gray-700 w-full px-4 py-3 border border-gray-300 rounded-md
                 focus:outline-none focus:ring-2 focus:ring-orange-400 pr-10"
               />
-
               <button
                 type="button"
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700"
               >
                 {showConfirmPassword ? <FaEyeSlash /> : <FaEye />}
               </button>
@@ -134,8 +131,9 @@ const Register = () => {
             </button>
           </form>
 
-          <div className="text-red-500 p-2">{error}</div>
-          <p className="mt-6 text-sm text-gray-600 flex items-center justify-center gap-2">
+          {error && <div className="text-red-500 p-2">{error}</div>}
+
+          <p className="mt-4 text-sm text-gray-600 flex items-center justify-center gap-2">
             Already have an account?{" "}
             <Link to="/login" className="text-blue-500 font-semibold">
               Login

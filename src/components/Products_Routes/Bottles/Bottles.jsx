@@ -42,16 +42,23 @@ const Bottles = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center px-56 mt-50">
+    <div className="flex flex-col lg:flex-row items-center justify-center px-4 sm:px-8 md:px-20 lg:px-56 mt-8 sm:mt-12 md:mt-30 lg:mt-50">
       <div
         ref={cardsRef}
-        className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 mx-10"
+        className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-3 md:gap-2 mx-4 sm:mx-6 md:mx-8 lg:mx-10 w-full lg:w-auto"
       >
         {bottles.map((bottle) => (
           <Bottle key={bottle.id} bottle={bottle}></Bottle>
         ))}
       </div>
-      <SectionTitle ref={sectionTitleRef} title={"Water Bottle"}></SectionTitle>
+      
+      {/* Single SectionTitle component with responsive positioning */}
+      <div 
+        ref={sectionTitleRef}
+        className="order-first lg:order-none mb-6 sm:mb-8 md:mb-10 lg:mb-0 lg:ml-8"
+      >
+        <SectionTitle title={"Water Bottle"}></SectionTitle>
+      </div>
     </div>
   );
 };
