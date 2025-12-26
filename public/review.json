@@ -1,0 +1,44 @@
+[
+  {
+    "reviewId": 1,
+    "reviewerName": "Ayaan Rahman",
+    "reviewerProfileImage": "https://i.pravatar.cc/150?img=11",
+    "comments": "Amazing quality! The fabric feels premium and the fit is perfect. Totally worth the price.",
+    "rating": 5
+  },
+  {
+    "reviewId": 2,
+    "reviewerName": "Nusrat Jahan",
+    "reviewerProfileImage": "https://i.pravatar.cc/150?img=32",
+    "comments": "Really comfortable and stylish. Delivery was quick and packaging was nice.",
+    "rating": 4
+  },
+  {
+    "reviewId": 3,
+    "reviewerName": "Tanvir Ahmed",
+    "reviewerProfileImage": "https://i.pravatar.cc/150?img=18",
+    "comments": "Good product overall. The color is slightly different from the pictures but still looks good.",
+    "rating": 4
+  },
+  {
+    "reviewId": 4,
+    "reviewerName": "Sadia Islam",
+    "reviewerProfileImage": "https://i.pravatar.cc/150?img=47",
+    "comments": "Loved the design and comfort. I've already received compliments from friends!",
+    "rating": 5
+  },
+  {
+    "reviewId": 5,
+    "reviewerName": "Mehedi Hasan",
+    "reviewerProfileImage": "https://i.pravatar.cc/150?img=25",
+    "comments": "Decent quality for the price. Could improve stitching in some areas.",
+    "rating": 3
+  },
+  {
+    "reviewId": 6,
+    "reviewerName": "Farhana Akter",
+    "reviewerProfileImage": "https://i.pravatar.cc/150?img=39",
+    "comments": "Super soft and cozy! Perfect for daily wear. Will buy again.",
+    "rating": 5
+  }
+]
