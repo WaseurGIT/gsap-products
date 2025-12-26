@@ -8,6 +8,7 @@ import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 import Login from "./auth/LoginPage/Login.jsx";
 import Register from "./auth/RegisterPage/Register.jsx";
 import AuthProvider from "./context/AuthProvider.jsx";
+import HoodieDetails from "./components/Products_Routes/HoodieItems/HoodieDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/product/:id",
+        element: <HoodieDetails></HoodieDetails>,
       },
     ],
   },

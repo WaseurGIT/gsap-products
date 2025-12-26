@@ -1,9 +1,11 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Hoodie = ({ hoodie }) => {
   const { product_name, price, image } = hoodie;
+  const navigate = useNavigate();
 
   // ref is used because GSAP needs real dom element
   const cardRef = useRef(null);
@@ -57,6 +59,7 @@ const Hoodie = ({ hoodie }) => {
   return (
     <div
       ref={cardRef}
+      onClick={() => navigate(`/product/${hoodie.id}`)}
       className="relative w-76 bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer"
     >
       {/* Image */}

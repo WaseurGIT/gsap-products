@@ -1,9 +1,11 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap/all";
 import React, { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Sneaker = ({ sneaker }) => {
   const { product_name, price, image } = sneaker;
+  const navigate = useNavigate();
 
   const cardRef = useRef();
   const nameRef = useRef();
@@ -53,6 +55,7 @@ const Sneaker = ({ sneaker }) => {
   return (
     <div
       ref={cardRef}
+      onClick={() => navigate(`/product/${sneaker.id}`)}
       className="relative w-76 bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 cursor-pointer"
     >
       <figure className="flex items-center justify-center p-4">
